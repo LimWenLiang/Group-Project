@@ -1,14 +1,13 @@
 ## Group Info:
 1. Matric Number & Name & Photo
 
-### Leader:
 <p>
-262364 Hong Xin Yin <br /> <br />
-
-
-<p>
-<p> 
     
+### Leader:
+262364 Hong Xin Yin <br /> <br />
+    ![262364](https://github.com/STIW3054-A192/stiw3054-groupproject-themavericks/blob/master/images/262364%20Hong%20Xin%20Yin.png)
+
+
 ### Group Members:
 262543 Ooi Gi Yuen <br/> <br />
 

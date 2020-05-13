@@ -4,6 +4,8 @@
 ### Leader:
 262364
 Hong Xin Yin
+
+(img src= "https://user-images.githubusercontent.com/57511123/81773073-1c050200-951a-11ea-9ed4-e336723bb0bf.png" width="25" height="25")
 ![WhatsApp Image 2019-04-14 at 08 50 31](https://user-images.githubusercontent.com/57511123/81773073-1c050200-951a-11ea-9ed4-e336723bb0bf.png)
 
 

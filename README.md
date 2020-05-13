@@ -7,7 +7,6 @@
 ![WhatsApp Image 2019-04-14 at 08 50 31 (150x200)](https://user-images.githubusercontent.com/57511123/81775198-ee6e8780-951e-11ea-9773-fa4e3cc85938.png)
 
 
-
 ### Group Members:
 2. 262543 Ooi Gi Yuen <br/> <br />
 

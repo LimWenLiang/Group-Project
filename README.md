@@ -17,6 +17,7 @@ Some sample for picture size adjusting, YouTube Link: https://www.youtube.com/wa
 
 ### Group Members:
 262543 Ooi Gi Yuen <br/> <br />
+<img src="https://user-images.githubusercontent.com/50879663/81773103-2f17d200-951a-11ea-93e7-9c86478df4e4.jpeg" width="150" height="200" />
 
 261589 Ho Jia Hui <br /> <br />
     <img src="images/Ho%20JIa%20Hui%20261589.png" width="150" height="200">

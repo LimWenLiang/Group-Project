@@ -14,6 +14,7 @@
     ![mypicture](https://github.com/STIW3054-A192/stiw3054-groupproject-themavericks/blob/master/images/Ho%20JIa%20Hui%20261589.png)
 
 4. 252849 Kamini Sambeth <br /> <br />
+    ![profilePic](https://github.com/STIW3054-A192/stiw3054-groupproject-themavericks/blob/master/images/KaminiSambeth.jpg)
 
 5. 261938 Lim Wen Liang <br /> <br />
 

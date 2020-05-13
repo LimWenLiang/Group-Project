@@ -8,8 +8,6 @@ Hong Xin Yin
 ![WhatsApp Image 2019-04-14 at 08 50 31 (150x200)](https://user-images.githubusercontent.com/57511123/81773954-114b6c80-951c-11ea-9049-05457dc038f2.png)
 
 
-
-
 2. Other related info (if any)
 
 ## Introduction

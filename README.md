@@ -4,7 +4,7 @@
 ### Leader:
 <p>
 262364 Hong Xin Yin <br /> <br />
-![WhatsApp Image 2019-04-14 at 08 50 31 (150x200)](https://user-images.githubusercontent.com/57511123/81773954-114b6c80-951c-11ea-9049-05457dc038f2.png)
+![WhatsApp Image 2019-04-14 at 08 50 31 (150x200)](https://user-images.githubusercontent.com/57511123/81774420-16f58200-951d-11ea-8366-55296ad02688.png)
 
 ### Group Members:
 262543 Ooi Gi Yuen <br/> <br />

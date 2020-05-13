@@ -11,6 +11,7 @@
 2. 262543 Ooi Gi Yuen <br/> <br />
 
 3. 261589 Ho Jia Hui <br /> <br />
+    ![mypicture](https://github.com/STIW3054-A192/stiw3054-groupproject-themavericks/blob/master/images/Ho%20JIa%20Hui%20261589.png)
 
 4. 252849 Kamini Sambeth <br /> <br />
 

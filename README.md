@@ -23,10 +23,10 @@ Some sample for picture size adjusting, YouTube Link: https://www.youtube.com/wa
     <img src="images/Ho%20JIa%20Hui%20261589.png" width="150" height="200">
 
 252849 Kamini Sambeth <br /> <br />
-     <img src="images/KaminiSambeth.jpg" width="150" height="200">
+    <img src="images/KaminiSambeth.jpg" width="150" height="200">
 
 261938 Lim Wen Liang <br /> <br />
-
+    <img src="images/Lim%20Wen%20Liang%20261938.PNG" width="150" height="200">
 <p>
 
 2. Other related info (if any)

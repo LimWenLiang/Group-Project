@@ -38,9 +38,13 @@ public class CoronaCasesUpdate {
         String country3 = null;
         String country4 = null;
 
-        // Highest Cases
+        // for Highest Cases
         for (Element row : CoronaCases.select("tr")) {
             try {
+                // num1 and num2 is for fixing the data from table.
+                final String num1 = row.select("td:nth-child(1)").text();
+                final int num2 = Integer.parseInt(num1);
+
                 final String totalCasesS = row.select("td:nth-child(3)").text();
                 final String tempTotalCasesS = totalCasesS.replace(",", "");
                 final int totalCases = Integer.parseInt(tempTotalCasesS);
@@ -57,9 +61,13 @@ public class CoronaCasesUpdate {
         }
         temp = 0;
 
-        // Highest New Cases
+        // for Highest New Cases
         for (Element row : CoronaCases.select("tr")) {
             try {
+                // num1 and num2 is for fixing the data from table.
+                final String num1 = row.select("td:nth-child(1)").text();
+                final int num2 = Integer.parseInt(num1);
+
                 final String totalNewCasesS = row.select("td:nth-child(4)").text();
                 final String tempTotalNewCasesS = totalNewCasesS.replace(",", "").replace("+", "");
                 final int totalNewCases = Integer.parseInt(tempTotalNewCasesS);
@@ -75,9 +83,13 @@ public class CoronaCasesUpdate {
         }
         temp = 0;
 
-        // Highest Death Cases
+        // for Highest Death Cases
         for (Element row : CoronaCases.select("tr")) {
             try {
+                // num1 and num2 is for fixing the data from table.
+                final String num1 = row.select("td:nth-child(1)").text();
+                final int num2 = Integer.parseInt(num1);
+
                 final String totalDeathS = row.select("td:nth-child(5)").text();
                 final String tempTotalDeathS = totalDeathS.replace(",", "");
                 final int totalDeath = Integer.parseInt(tempTotalDeathS);
@@ -94,9 +106,12 @@ public class CoronaCasesUpdate {
         }
         temp = 0;
 
-        //Highest New Death Cases
+        // for Highest New Death Cases
         for (Element row : CoronaCases.select("tr")) {
             try {
+                // num1 and num2 is for fixing the data from table.
+                final String num1 = row.select("td:nth-child(1)").text();
+                final int num2 = Integer.parseInt(num1);
 
                 final String totalNewDeathS = row.select("td:nth-child(6)").text();
                 final String tempTotalNewDeathS = totalNewDeathS.replace(",", "").replace("+", "");
@@ -112,6 +127,7 @@ public class CoronaCasesUpdate {
             }
         }
 
+        // for Total Cases, Total New Cases, Total Death and Total New Death
         for (Element row : CoronaCases.select("tr")) {
             if (row.select("td:nth-of-type(2)").text().equals("")) {
                 continue;

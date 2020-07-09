@@ -8,6 +8,7 @@ public class MainClass {
 
     public static void main(String[] args) {
         disableWarning();
+
         ApiContextInitializer.init();
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
         try {

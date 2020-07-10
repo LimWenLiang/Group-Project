@@ -39,7 +39,7 @@ The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by sea
 *Highest New Death Cases<br/> 
 
 ## Flow Diagram of the requirements
-  <img src="images/flowchart.png" width="500" height="700">
+  <img src="images/projectflow.png" width="500" height="700">
 
 ## User manual
 Steps:<br/> 

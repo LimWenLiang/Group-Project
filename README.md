@@ -74,3 +74,4 @@ Steps:<br/>
 4. Tutorials Point. (n.d.). Java Tutorial. Retrieved Jun 24, 2020, from https://www.tutorialspoint.com/java/index.htm
 
 ## JavaDoc
+http://localhost:63342/STIW3054-Project-HelloWorld/JavaDoc/my/example/TheMavericksBot/package-summary.html

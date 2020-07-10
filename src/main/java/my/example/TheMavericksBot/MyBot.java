@@ -22,9 +22,9 @@ public class MyBot extends TelegramLongPollingBot {
         message.setChatId(update.getMessage().getChatId());
         String input = update.getMessage().getText();
         System.out.println(update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + ": " + input);
+        long start = 0;
 
         try {
-
             if (input.equals("/start")) {
                 message.setText("Halo " + update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + "."
                         + "\n\nThis is a robot to print COVID-19 info based on input."
@@ -53,6 +53,7 @@ public class MyBot extends TelegramLongPollingBot {
                     message.setText("Error.");
                 }
             } else {
+                start = System.currentTimeMillis(); //The time when the process start.
                 int temp = objectList.size();
                 coronaCasesUpdate.searchCountry(input);
                 coronaCasesUpdate.writeObj();
@@ -73,7 +74,43 @@ public class MyBot extends TelegramLongPollingBot {
             exception.printStackTrace();
         }
 
+        // The time when the process finish.
+        long end = System.currentTimeMillis();
+        //The time taken for the process.
+        long timeElaspsed = (end - start)/1000;
+        //if time taken by the process exceed 60s.
+        if (timeElaspsed > 60 ) {
+            System.out.println("Current process took "+ timeElaspsed + " seconds.");
+            message.setText( "Current process took "+ timeElaspsed + " seconds.");
+            try {
+                execute(message);
 
+            } catch (TelegramApiException e) {
+                message.setText("Error.");
+            }
+
+            message.setText("Current process which took more than 60s was terminated. " + "\nPlease try again.");
+            try {
+                execute(message);
+
+            } catch (TelegramApiException e) {
+                message.setText("Error.");
+            }
+
+            System.exit(0);
+        }
+
+        else{
+            System.out.println("Current process took "+ timeElaspsed + " seconds.");
+            message.setText( "Current process took "+ timeElaspsed + " seconds.");
+
+            try {
+                execute(message);
+
+            } catch (TelegramApiException e) {
+                message.setText("Error.");
+            }
+        }
     }
 
     public static void readObj() throws IOException, ClassNotFoundException {

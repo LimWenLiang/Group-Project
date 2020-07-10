@@ -12,6 +12,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ * This class is show the information of Covid-19
+ *
+ * @author The Mavericks
+ */
+
 public class CoronaCasesUpdate {
 
     private final String CoronaCasesLink = "https://www.worldometers.info/coronavirus/";
@@ -20,6 +26,14 @@ public class CoronaCasesUpdate {
     static Object object = new Object();
     static ArrayList<Object> objectList = new ArrayList<>();
 
+
+    /**
+     * This method is calculate the Highest Cases,Highest New Cases,Highest Death Cases,Highest New Death Cases,
+     * This method also calculate total Cases, Total New Cases, Total Death and Total New Death of selected country
+     *
+     * @param countryName the selected country insert by user
+     * @throws Exception an input or output operation is failed or interpreted
+     */
 
     public void searchCountry(String countryName) throws Exception {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -37,6 +51,8 @@ public class CoronaCasesUpdate {
         String country2 = null;
         String country3 = null;
         String country4 = null;
+
+
 
         // for Highest Cases
         for (Element row : CoronaCases.select("tr")) {
@@ -146,6 +162,12 @@ public class CoronaCasesUpdate {
             }
         }
     }
+
+    /**
+     * This method is to link with object
+     *
+     * @throws IOException an input or output operation is failed or interpreted
+     */
 
     public void writeObj() throws IOException {
         FileOutputStream fos = new FileOutputStream("Object.ser");

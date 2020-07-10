@@ -4,7 +4,18 @@ import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+/**
+ * This class is to register telegram bot in telegram
+ *
+ * @author The Mavericks
+ */
+
 public class MainClass {
+
+    /**
+     * This method is link with telegram
+     * @param args syntax
+     */
 
     public static void main(String[] args) {
         disableWarning();
@@ -18,6 +29,9 @@ public class MainClass {
         }
     }
 
+    /**
+     * This method is to display terminated message when response time more than 1 minute
+     */
     public static void disableWarning() {
         System.err.close();
         System.setErr(System.out);

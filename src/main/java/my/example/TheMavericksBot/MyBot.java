@@ -10,9 +10,20 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
+/**
+ * This class is to display message to user
+ *
+ * @author The Mavericks
+ */
+
 public class MyBot extends TelegramLongPollingBot {
 
     static ArrayList<Object> objectList = new ArrayList<>();
+
+    /**
+     * This method is receive input form user and output result to user
+     * @param update output of result
+     */
 
     @Override
     public void onUpdateReceived(Update update) {
@@ -126,6 +137,12 @@ public class MyBot extends TelegramLongPollingBot {
         }
     }
 
+    /**
+     * This method is read object
+     * @throws IOException when an input or output operation is failed or interpreted
+     * @throws ClassNotFoundException when class is not found
+     */
+
     public static void readObj() throws IOException, ClassNotFoundException {
 
         FileInputStream fis = new FileInputStream("Object.ser");
@@ -135,10 +152,22 @@ public class MyBot extends TelegramLongPollingBot {
         fis.close();
     }
 
+    /**
+     * This method is to insert bot name
+     *
+     * @return bot name
+     */
+
     @Override
     public String getBotUsername() {
         return "STIW3054_TheMavericks_bot";
     }
+
+    /**
+     * This method is to insert bot token
+     *
+     * @return bot token
+     */
 
     @Override
     public String getBotToken() {

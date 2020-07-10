@@ -39,7 +39,7 @@ The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by sea
 *Highest New Death Cases<br/> 
 
 ## Flow Diagram of the requirements
-  <img src="images/flowchart.png" width="650" height="500">
+  <img src="images/flowchart.png" width="500" height="700">
 
 ## User manual
 Steps:<br/> 
@@ -59,7 +59,7 @@ Steps:<br/>
    <img src="images/output5.jpg" width="300" height="400">
 
 ## UML Class Diagram
-   <img src="images/UMLDiagram.png" width="750" height="400">
+   <img src="images/UMLdiagram.png" width="800" height="400">
 
 ## Youtube Presentation
 

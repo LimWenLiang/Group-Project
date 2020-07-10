@@ -23,6 +23,7 @@ public class MyBot extends TelegramLongPollingBot {
         String input = update.getMessage().getText();
         System.out.println(update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + ": " + input);
         long start = 0;
+        long end = 0;
 
         try {
             if (input.equals("/start")) {
@@ -31,7 +32,6 @@ public class MyBot extends TelegramLongPollingBot {
                         + " You may enter any country you'd like to, then this robot will work for it.");
 
                 try {
-                    //execute print Thread Name
                     execute(message);
 
                 } catch (TelegramApiException e) {
@@ -46,12 +46,12 @@ public class MyBot extends TelegramLongPollingBot {
                         + "\n\nLet's have a try!");
 
                 try {
-                    //execute print Thread Name
                     execute(message);
 
                 } catch (TelegramApiException e) {
                     message.setText("Error.");
                 }
+
             } else {
                 start = System.currentTimeMillis(); //The time when the process start.
                 int temp = objectList.size();
@@ -62,20 +62,33 @@ public class MyBot extends TelegramLongPollingBot {
                 if (objectList.size() > temp) {
                     for (int i = temp; i < objectList.size(); i++) {
                         System.out.println(update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + ": Executed.");
-                        execute(message.setText(String.valueOf(objectList.get(i))));
+                        message.setText(String.valueOf(objectList.get(i)));
                         temp++;
+                        try {
+                            execute(message);
+
+                        } catch (TelegramApiException e) {
+                            message.setText("Error.");
+                        }
                     }
                 } else {
                     System.out.println(update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + ": Invalid input.");
-                    execute(message.setText("Invalid country name. Please insert again."));
+                    message.setText("Invalid country name. Please insert again.");
+                    try {
+                        execute(message);
+
+                    } catch (TelegramApiException e) {
+                        message.setText("Error.");
+                    }
                 }
+
+                // The time when the process finish.
+                end = System.currentTimeMillis();
             }
         } catch (Exception exception) {
             exception.printStackTrace();
         }
 
-        // The time when the process finish.
-        long end = System.currentTimeMillis();
         //The time taken for the process.
         long timeElaspsed = (end - start)/1000;
         //if time taken by the process exceed 60s.
@@ -122,13 +135,11 @@ public class MyBot extends TelegramLongPollingBot {
         fis.close();
     }
 
-    //currently below is my bot, not the mavericks bot
     @Override
     public String getBotUsername() {
         return "STIW3054_TheMavericks_bot";
     }
 
-    //currently below is my bot, not the mavericks bot
     @Override
     public String getBotToken() {
         return "1107729598:AAG4A6KFDLhWvIS4NYk6IScmc9-jZth_h70";

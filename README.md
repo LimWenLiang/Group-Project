@@ -24,21 +24,24 @@
 2. Other related info (if any)
 
 ## Introduction
-The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by searching country name.
--It can receive country name from user and get the Covid-19 information based on the country name.
--Later it will show the Covid-19 information to user, which are:
-*Country Name
-*Total Cases
-*Total New Cases
-*Total Death
-*Total New Death
-*Highest Cases
-*Highest New Cases
-*Highest Death Cases
-*Highest New Death Cases
+
+The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by searching country name.<br/> <br />
+-It can receive country name from user and get the Covid-19 information based on the country name.<br/> <br />
+-Later it will show the Covid-19 information to user, which are:<br/> <br />
+*Country Name<br/> <br />
+*Total Cases<br/> <br />
+*Total New Cases<br/> <br />
+*Total Death<br/> <br />
+*Total New Death<br/> <br />
+*Highest Cases<br/> <br />
+*Highest New Cases<br/> <br />
+*Highest Death Cases<br/> <br />
+*Highest New Death Cases<br/> <br />
+
 ## Flow Diagram of the requirements
+
 ## User manual
-Steps:
+Steps:<br/> <br />
 1.Once user open the bot link it will navigate to telegram bot .
 2.User will get the information about the bot and how it will works.
 3.By click the start button the bot will give instruction message to guide them with an example output.

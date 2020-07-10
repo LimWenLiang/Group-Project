@@ -42,7 +42,7 @@ The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by sea
 
 ## User manual
 Steps:<br/> <br />
-1.Once user open the bot link it will navigate to telegram bot .
+1.Once user open the bot link it will navigate to telegram bot .<br/><br />
 2.User will get the information about the bot and how it will works.
 3.By click the start button the bot will give instruction message to guide them with an example output.
 4.The bot will ask a country name.

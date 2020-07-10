@@ -11,7 +11,7 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 
 /**
- * This class is to display message to user
+ * This class is for manipulating Telegram Bot
  *
  * @author The Mavericks
  */
@@ -38,7 +38,7 @@ public class MyBot extends TelegramLongPollingBot {
 
         try {
             if (input.equals("/start")) {
-                message.setText("Halo " + update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + "."
+                message.setText("Hello " + update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + "."
                         + "\n\nThis is a robot to print COVID-19 info based on input."
                         + " You may enter any country you'd like to, then this robot will work for it.");
 
@@ -64,7 +64,8 @@ public class MyBot extends TelegramLongPollingBot {
                 }
 
             } else {
-                start = System.currentTimeMillis(); //The time when the process start.
+                //The time when the process start.
+                start = System.currentTimeMillis();
                 int temp = objectList.size();
                 coronaCasesUpdate.searchCountry(input);
                 coronaCasesUpdate.writeObj();
@@ -92,7 +93,6 @@ public class MyBot extends TelegramLongPollingBot {
                         message.setText("Error.");
                     }
                 }
-
                 // The time when the process finish.
                 end = System.currentTimeMillis();
             }
@@ -138,8 +138,9 @@ public class MyBot extends TelegramLongPollingBot {
     }
 
     /**
-     * This method is read object
-     * @throws IOException when an input or output operation is failed or interpreted
+     * This method is to read an object
+     *
+     * @throws IOException            when an input or output operation is failed or interpreted
      * @throws ClassNotFoundException when class is not found
      */
 

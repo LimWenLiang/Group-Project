@@ -73,7 +73,6 @@ public class Object implements Serializable {
      * @return display result
      */
 
-    // need to updated after successfully get those highest data.
     @Override
     public String toString() {
         return "Country: " + country +

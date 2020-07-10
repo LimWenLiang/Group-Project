@@ -1,5 +1,5 @@
 ## Group Info:
-1. Matric Number & Name & Photo
+Group Name: The Mavericks
 
 <p>
     
@@ -26,8 +26,8 @@
 ## Introduction
 
 The STIW3054_TheMavericks_bot is a real-time Covid-19 information tracker by searching country name.<br/> 
--It can receive country name from user and get the Covid-19 information based on the country name.<br/> 
--Later it will show the Covid-19 information to user, which are:<br/> 
+It can receive country name from user and get the Covid-19 information based on the country name.<br/> 
+Later it will show the Covid-19 information to user, which are:<br/> 
 *Country Name<br/> 
 *Total Cases<br/> 
 *Total New Cases<br/> 
@@ -62,6 +62,7 @@ Steps:<br/>
    <img src="images/UMLDiagram.PNG" width="800" height="400">
 
 ## Youtube Presentation
+https://youtu.be/fGwkFXGBF6Y
 
 ## References
 

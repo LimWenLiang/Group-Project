@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- * This class is show the information of Covid-19
+ * This class is for manipulating Corona Cases Information
  *
  * @author The Mavericks
  */
@@ -51,8 +51,6 @@ public class CoronaCasesUpdate {
         String country2 = null;
         String country3 = null;
         String country4 = null;
-
-
 
         // for Highest Cases
         for (Element row : CoronaCases.select("tr")) {
@@ -164,9 +162,9 @@ public class CoronaCasesUpdate {
     }
 
     /**
-     * This method is to link with object
+     * This method is to write an object
      *
-     * @throws IOException an input or output operation is failed or interpreted
+     * @throws IOException An input or output operation is failed or interpreted
      */
 
     public void writeObj() throws IOException {
@@ -176,5 +174,4 @@ public class CoronaCasesUpdate {
         oos.close();
         fos.close();
     }
-
 }

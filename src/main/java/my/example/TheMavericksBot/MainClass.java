@@ -30,7 +30,7 @@ public class MainClass {
     }
 
     /**
-     * This method is to display terminated message when response time more than 1 minute
+     * This method is to display warning message
      */
     public static void disableWarning() {
         System.err.close();

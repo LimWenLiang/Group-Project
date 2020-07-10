@@ -59,7 +59,7 @@ Steps:<br/>
    <img src="images/output5.jpg" width="300" height="400">
 
 ## UML Class Diagram
-   <img src="images/UMLDiagram.png" width="500" height="700">
+   <img src="images/UMLDiagram.png" width="750" height="400">
 
 ## Youtube Presentation
 

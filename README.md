@@ -57,6 +57,7 @@ Steps:<br/>
    <img src="images/output3.jpg" width="300" height="450">
    <img src="images/output4.jpg" width="300" height="450">
    <img src="images/output5.jpg" width="300" height="450">
+   <img src="images/output6.PNG" width="300" height="400">
 
 ## UML Class Diagram
    <img src="images/UMLDiagram.PNG" width="900" height="400">

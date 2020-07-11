@@ -39,7 +39,7 @@ Later it will show the Covid-19 information to user, which are:<br/>
 *Highest New Death Cases<br/> 
 
 ## Flow Diagram of the requirements
-  <img src="images/flowproject.png" width="500" height="700">
+  <img src="images/flowproject.png" width="500" height="600">
 
 ## User manual
 Steps:<br/> 
@@ -52,14 +52,14 @@ Steps:<br/>
 7.The Covid-19 information regarding to the country will be display on telegram bot interface.<br/>
 8.If users want to know about other country they can enter the country name as much as they want.<br/>
 ## Result/Output (Screenshot the telegram bots)
-   <img src="images/output1.jpg" width="300" height="400">
-   <img src="images/output2.jpg" width="300" height="400">
-   <img src="images/output3.jpg" width="300" height="400">
-   <img src="images/output4.jpg" width="300" height="400">
-   <img src="images/output5.jpg" width="300" height="400">
+   <img src="images/output1.jpg" width="300" height="450">
+   <img src="images/output2.jpg" width="300" height="450">
+   <img src="images/output3.jpg" width="300" height="450">
+   <img src="images/output4.jpg" width="300" height="450">
+   <img src="images/output5.jpg" width="300" height="450">
 
 ## UML Class Diagram
-   <img src="images/UMLDiagram.PNG" width="800" height="400">
+   <img src="images/UMLDiagram.PNG" width="900" height="400">
 
 ## Youtube Presentation
 https://youtu.be/fGwkFXGBF6Y

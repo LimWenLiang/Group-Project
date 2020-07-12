@@ -22,6 +22,7 @@ Group Name: The Mavericks
 <p>
 
 2. Other related info (if any)
+Telegram bot：https://t.me/STIW3054_TheMavericks_bot
 
 ## Introduction
 
